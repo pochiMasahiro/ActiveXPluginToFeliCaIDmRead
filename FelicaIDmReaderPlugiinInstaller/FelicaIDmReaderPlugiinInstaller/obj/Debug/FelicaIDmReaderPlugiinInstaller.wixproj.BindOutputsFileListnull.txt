@@ -1,0 +1,3 @@
+C:\Users\Masahiro\Desktop\Database\FelicaIDmReaderPlugiinInstaller\FelicaIDmReaderPlugiinInstaller\bin\Debug\cab1.cab
+C:\Users\Masahiro\Desktop\Database\FelicaIDmReaderPlugiinInstaller\FelicaIDmReaderPlugiinInstaller\bin\Debug\FelicaIDmReaderPlugiinInstaller.msi
+C:\Users\Masahiro\Desktop\Database\FelicaIDmReaderPlugiinInstaller\FelicaIDmReaderPlugiinInstaller\bin\Debug\FelicaIDmReaderPlugiinInstaller.wixpdb

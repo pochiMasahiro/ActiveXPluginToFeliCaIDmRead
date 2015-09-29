@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>TestGetFeliCaIDm</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+
+    <object id="Test" classid="CLSID:7d972707-49c9-4813-8361-ebed3f7d0d88"></object>
+    <input id="Read" type="button" value="Read" onclick="Reader()" />
+    <input id="IDm" type="text" size="20" />
+    <input id="Message" type="text" style="width: 400px; height: 100px; font-size: 11pt" />
+
+    <div style="width: 0; height: 0; display: none; visibility: hidden">
+        <script type="text/javascript">
+            function Reader() {
+                Test.Init();
+                document.getElementById("Read").disabled = true;
+            };
+        </script>
+        <script language="javascript" type="text/javascript" for="Test" event="NotifyIDm(idm)">
+        document.getElementById("IDm").value = idm;
+        </script>
+        <script language="javascript" type="text/javascript" for="Test" event="FelicaError(message)">
+        document.getElementById("Message").value = message + '\r\n' + document.getElementById("Message").value;
+        </script>
+    </div>
+</body>
+</html>

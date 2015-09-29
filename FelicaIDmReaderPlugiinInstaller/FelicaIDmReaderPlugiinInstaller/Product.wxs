@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="FelicaIDmReadPlugiinInstaller" Language="1033" Version="1.0.0.0" Manufacturer="TMCIT" UpgradeCode="b51fdaed-2f2f-4ab6-bafb-d738b19cd523">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="FelicaIDmReaderPlugiinInstaller" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+
+    <UIRef Id="WixUI_Mondo"/>
+    <PropertyRef Id="NETFRAMEWORK35" />
+    <Condition Message="This application requires .NET Framework X.Y.">Installed OR NETFRAMEWORK35</Condition>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="FelicaIDmReaderPlugiinInstaller" />
+			</Directory>
+		</Directory>
+	</Fragment>
+</Wix>

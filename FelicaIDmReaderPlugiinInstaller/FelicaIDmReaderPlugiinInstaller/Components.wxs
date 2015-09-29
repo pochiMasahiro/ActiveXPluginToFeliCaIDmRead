@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+            <Component Id="cmp94E37962257B73C5562D2990BDED14D1" Guid="59b12bd2-caab-4ec7-880f-326ad79a8531">
+                <Class Id="{7D972707-49C9-4813-8361-EBED3F7D0D88}" Context="InprocServer32" Description="FeliCaAccessPlugIn.Access" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="FelicaAccessPlugIn.Access" Description="FeliCaAccessPlugIn.Access" />
+                </Class>
+                <Class Id="{D0559834-B972-3ECF-B64C-B1F620FE8327}" Context="InprocServer32" Description="FeliCaAccessPlugIn.IObjectSafetyTLB" ThreadingModel="both" ForeignServer="mscoree.dll">
+                    <ProgId Id="FeliCaAccessPlugIn.IObjectSafetyTLB" Description="FeliCaAccessPlugIn.IObjectSafetyTLB" />
+                </Class>
+                <File Id="filB8DDBCC1B4B098378CDAAB7CF180E297" KeyPath="yes" Source=".\SrcDir\FeliCaAccessPlugIn.dll" />
+                <ProgId Id="Record" />
+                <RegistryValue Root="HKCR" Key="CLSID\{7D972707-49C9-4813-8361-EBED3F7D0D88}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{7D972707-49C9-4813-8361-EBED3F7D0D88}\InprocServer32\1.0.0.0" Name="Class" Value="FeliCaAccessPlugIn.Access" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{7D972707-49C9-4813-8361-EBED3F7D0D88}\InprocServer32\1.0.0.0" Name="Assembly" Value="FeliCaAccessPlugIn, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{7D972707-49C9-4813-8361-EBED3F7D0D88}\InprocServer32\1.0.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{7D972707-49C9-4813-8361-EBED3F7D0D88}\InprocServer32\1.0.0.0" Name="CodeBase" Value="file:///[#filB8DDBCC1B4B098378CDAAB7CF180E297]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{7D972707-49C9-4813-8361-EBED3F7D0D88}\InprocServer32" Name="Class" Value="FeliCaAccessPlugIn.Access" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{7D972707-49C9-4813-8361-EBED3F7D0D88}\InprocServer32" Name="Assembly" Value="FeliCaAccessPlugIn, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{7D972707-49C9-4813-8361-EBED3F7D0D88}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{7D972707-49C9-4813-8361-EBED3F7D0D88}\InprocServer32" Name="CodeBase" Value="file:///[#filB8DDBCC1B4B098378CDAAB7CF180E297]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D0559834-B972-3ECF-B64C-B1F620FE8327}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D0559834-B972-3ECF-B64C-B1F620FE8327}\InprocServer32\1.0.0.0" Name="Class" Value="FeliCaAccessPlugIn.IObjectSafetyTLB" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D0559834-B972-3ECF-B64C-B1F620FE8327}\InprocServer32\1.0.0.0" Name="Assembly" Value="FeliCaAccessPlugIn, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D0559834-B972-3ECF-B64C-B1F620FE8327}\InprocServer32\1.0.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D0559834-B972-3ECF-B64C-B1F620FE8327}\InprocServer32\1.0.0.0" Name="CodeBase" Value="file:///[#filB8DDBCC1B4B098378CDAAB7CF180E297]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D0559834-B972-3ECF-B64C-B1F620FE8327}\InprocServer32" Name="Class" Value="FeliCaAccessPlugIn.IObjectSafetyTLB" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D0559834-B972-3ECF-B64C-B1F620FE8327}\InprocServer32" Name="Assembly" Value="FeliCaAccessPlugIn, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D0559834-B972-3ECF-B64C-B1F620FE8327}\InprocServer32" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{D0559834-B972-3ECF-B64C-B1F620FE8327}\InprocServer32" Name="CodeBase" Value="file:///[#filB8DDBCC1B4B098378CDAAB7CF180E297]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{29F589BC-DAC9-3EDD-889E-760579351527}\1.0.0.0" Name="Class" Value="DEVICE_DATA_NFC_14443A_18092_106K" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{29F589BC-DAC9-3EDD-889E-760579351527}\1.0.0.0" Name="Assembly" Value="FeliCaAccessPlugIn, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{29F589BC-DAC9-3EDD-889E-760579351527}\1.0.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{29F589BC-DAC9-3EDD-889E-760579351527}\1.0.0.0" Name="CodeBase" Value="file:///[#filB8DDBCC1B4B098378CDAAB7CF180E297]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{4C823208-E759-3FF3-9800-D98AFC7228C3}\1.0.0.0" Name="Class" Value="DEVICE_DATA_NFC_14443B_106K" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{4C823208-E759-3FF3-9800-D98AFC7228C3}\1.0.0.0" Name="Assembly" Value="FeliCaAccessPlugIn, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{4C823208-E759-3FF3-9800-D98AFC7228C3}\1.0.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{4C823208-E759-3FF3-9800-D98AFC7228C3}\1.0.0.0" Name="CodeBase" Value="file:///[#filB8DDBCC1B4B098378CDAAB7CF180E297]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{5A2557A1-2FBA-322C-A372-9207BCB92C38}\1.0.0.0" Name="Class" Value="DEVICE_INFO" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{5A2557A1-2FBA-322C-A372-9207BCB92C38}\1.0.0.0" Name="Assembly" Value="FeliCaAccessPlugIn, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{5A2557A1-2FBA-322C-A372-9207BCB92C38}\1.0.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{5A2557A1-2FBA-322C-A372-9207BCB92C38}\1.0.0.0" Name="CodeBase" Value="file:///[#filB8DDBCC1B4B098378CDAAB7CF180E297]" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{8465C71B-B880-3448-926F-236D27DE2BCE}\1.0.0.0" Name="Class" Value="DEVICE_DATA_NFC_18092_212_424K" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{8465C71B-B880-3448-926F-236D27DE2BCE}\1.0.0.0" Name="Assembly" Value="FeliCaAccessPlugIn, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{8465C71B-B880-3448-926F-236D27DE2BCE}\1.0.0.0" Name="RuntimeVersion" Value="v4.0.30319" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="Record\{8465C71B-B880-3448-926F-236D27DE2BCE}\1.0.0.0" Name="CodeBase" Value="file:///[#filB8DDBCC1B4B098378CDAAB7CF180E297]" Type="string" Action="write" />
+                <RegistryValue Root="HKLM" Key="SOFTWARE\Microsoft\Windows\CurrentVersion\Ext\PreApproved\{7d972707-49c9-4813-8361-ebed3f7d0d88}" Value="" Type="string"  Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{7d972707-49c9-4813-8361-ebed3f7d0d88}\Implemented Categories\{7DD95801-9882-11CF-9FA9-00AA006C42C4}" Value="" Type="string" Action="write" />
+                <RegistryValue Root="HKCR" Key="CLSID\{7d972707-49c9-4813-8361-ebed3f7d0d88}\Implemented Categories\{7DD95802-9882-11CF-9FA9-00AA006C42C4}" Value="" Type="string" Action="write" />
+
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>

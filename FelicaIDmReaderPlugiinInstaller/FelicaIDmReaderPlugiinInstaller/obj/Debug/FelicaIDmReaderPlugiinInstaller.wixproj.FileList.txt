@@ -1,0 +1,8 @@
+obj\Debug\Components.wixobj
+obj\Debug\Product.wixobj
+C:\Users\Masahiro\Desktop\Database\FelicaIDmReaderPlugiinInstaller\FelicaIDmReaderPlugiinInstaller\bin\Debug\cab1.cab
+C:\Users\Masahiro\Desktop\Database\FelicaIDmReaderPlugiinInstaller\FelicaIDmReaderPlugiinInstaller\bin\Debug\FelicaIDmReaderPlugiinInstaller.msi
+C:\Users\Masahiro\Desktop\Database\FelicaIDmReaderPlugiinInstaller\FelicaIDmReaderPlugiinInstaller\bin\Debug\FelicaIDmReaderPlugiinInstaller.wixpdb
+obj\Debug\FelicaIDmReaderPlugiinInstaller.wixproj.BindContentsFileListnull.txt
+obj\Debug\FelicaIDmReaderPlugiinInstaller.wixproj.BindOutputsFileListnull.txt
+obj\Debug\FelicaIDmReaderPlugiinInstaller.wixproj.BindBuiltOutputsFileListnull.txt

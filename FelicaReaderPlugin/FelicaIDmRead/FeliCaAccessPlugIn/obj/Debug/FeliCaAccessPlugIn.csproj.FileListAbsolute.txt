@@ -1,0 +1,5 @@
+C:\Users\Masahiro\Desktop\Database\FelicaReadPlugIn\FelicaIDmRead\FeliCaAccessPlugIn\bin\Debug\FeliCaAccessPlugIn.dll
+C:\Users\Masahiro\Desktop\Database\FelicaReadPlugIn\FelicaIDmRead\FeliCaAccessPlugIn\bin\Debug\FeliCaAccessPlugIn.pdb
+C:\Users\Masahiro\Desktop\Database\FelicaReadPlugIn\FelicaIDmRead\FeliCaAccessPlugIn\bin\Debug\FeliCaAccessPlugIn.tlb
+C:\Users\Masahiro\Desktop\Database\FelicaReadPlugIn\FelicaIDmRead\FeliCaAccessPlugIn\obj\Debug\FeliCaAccessPlugIn.dll
+C:\Users\Masahiro\Desktop\Database\FelicaReadPlugIn\FelicaIDmRead\FeliCaAccessPlugIn\obj\Debug\FeliCaAccessPlugIn.pdb
